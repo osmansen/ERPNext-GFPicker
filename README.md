@@ -4,7 +4,7 @@ This script adds a "Drive" button in the file attachment dialog of ERPNext. The 
 
 <img src="https://raw.githubusercontent.com/osmansen/ERPNext-GFPicker/master/googleFilePicker.png">
 
-<i>Before using this script, please note that I am not an ERPNext expert. My experience is limited with a couple days of development effort. I am practically a newbee. The integration code is developed using the <a href="https://developers.google.com/drive/api/v3/picker">Google File Picker API example</a></i>
+<i>Before using this script, please note that I am not an ERPNext expert. My experience is limited with a couple days of development effort. I am practically a newbee. The integration code is developed using the <a href="https://developers.google.com/drive/api/v3/picker" target="_blank">Google File Picker API example</a></i>
 
 You can use this script in two ways:
 
@@ -36,7 +36,7 @@ Then you need to run the following command in the frappe-bench folder:
 </p>
 <h2>A final note</h2>
 <p>
-ERPNext already supports <a href="https://frappe.io/docs/user/en/guides/deployment/how-to-enable-social-logins">Google authentication</a>. You need to set it up before using this script. And you need to add the drive APIs into the scope as follows:
+ERPNext already supports <a href="https://frappe.io/docs/user/en/guides/deployment/how-to-enable-social-logins" target="_blank">Google authentication</a>. You need to set it up before using this script. And you need to add the drive APIs into the scope as follows:
 </p><p><pre>
 <code>
 email	
