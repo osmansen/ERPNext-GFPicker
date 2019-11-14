@@ -36,7 +36,7 @@ Then you need to run the following command in the frappe-bench folder:
 </p>
 <h2>A final note</h2>
 <p>
-ERPNext already supports <a href="https://frappe.io/docs/user/en/guides/deployment/how-to-enable-social-logins" target="_blank">Google authentication</a>. You need to set it up before using this script. And you need to add the drive APIs into the scope as follows:
+ERPNext already supports <a href="https://frappe.io/docs/user/en/guides/deployment/how-to-enable-social-logins" target="_blank">Google authentication</a>. You need to set it up before using this script but you need to add the drive APIs into the scope as follows while doing it:
 </p><p><pre>
 <code>
 email	
