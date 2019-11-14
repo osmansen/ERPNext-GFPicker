@@ -30,4 +30,19 @@ Then you need to run the following command in the frappe-bench folder:
 </code>
 </p>
 
-I hope it helps you as it did for me!
+<h2>A final note</h2>
+
+ERPNext already supports <a href="https://frappe.io/docs/user/en/guides/deployment/how-to-enable-social-logins">Google authentication</a>. You need to set it up before using this script. And you need to add the drive APIs into the scope as follows:
+<code>
+email	
+profile	
+openid	
+../auth/drive	
+../auth/drive.file
+</code>
+
+Adding drive authorizations in the scope will authorize use of Google Drive at the moment the user signs in with Google Login.
+
+<hr>
+
+Enjoy!
