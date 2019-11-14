@@ -32,10 +32,12 @@ app_include_js = ["assets/js/erpnext.min.js","assets/js/google_file_picker.js"]
 Then you need to run the following command in the frappe-bench folder:
 </p>
 <p>
+<pre>
 <code>
   bench build
   bench clear-cache
 </code>
+</pre>
 </p>
 <h2>A final note</h2>
 <p>
