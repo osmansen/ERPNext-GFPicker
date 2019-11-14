@@ -19,20 +19,25 @@ You can add the script into your ERPNext installation. This requires access to t
 
 To do so;
 * Copy the google_file_picker.js file into sites/assets/js/ folder.
-* Change the app_include_js setting in app/erpnext/erpnext/hook.py as follows:
+* Change the app_include_js setting in app/erpnext/erpnext/hooks.py as follows:
+</p>
+<p>
 <code>
 app_include_js = ["assets/js/erpnext.min.js","assets/js/google_file_picker.js"]
 </code>
-
+</p>
+<p>
 Then you need to run the following command in the frappe-bench folder:
+</p>
+<p>
 <code>
   bench clear-cache
 </code>
 </p>
-
 <h2>A final note</h2>
-
+<p>
 ERPNext already supports <a href="https://frappe.io/docs/user/en/guides/deployment/how-to-enable-social-logins">Google authentication</a>. You need to set it up before using this script. And you need to add the drive APIs into the scope as follows:
+</p><p><pre>
 <code>
 email	
 profile	
@@ -40,9 +45,11 @@ openid
 ../auth/drive	
 ../auth/drive.file
 </code>
-
+</pre>
+</p>
+<p>
 Adding drive authorizations in the scope will authorize use of Google Drive at the moment the user signs in with Google Login.
-
+</p>
 <hr>
 
 Enjoy!
