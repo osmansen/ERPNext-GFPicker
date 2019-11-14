@@ -1,6 +1,6 @@
 # ERPNext-GFPicker
 
-This script adds a "Drive" button in the file attachment dialog of ERPNext. The button allows you to select a file from your drive and copies its URL to be stored in ERPNext.
+This script adds a "Drive" button in the file attachment dialog of ERPNext. The button allows you to select a file from your drive and copies its URL to be stored in ERPNext. It is tested for ERPNext 10.1.76, Frappe 10.1.68.
 
 <img src="https://raw.githubusercontent.com/osmansen/ERPNext-GFPicker/master/googleFilePicker.png">
 
