@@ -33,6 +33,7 @@ Then you need to run the following command in the frappe-bench folder:
 </p>
 <p>
 <code>
+  bench build
   bench clear-cache
 </code>
 </p>
