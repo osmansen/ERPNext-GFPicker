@@ -4,7 +4,7 @@ This script adds a "Drive" button in the file attachment dialog of ERPNext. The 
 
 <img src="https://raw.githubusercontent.com/osmansen/ERPNext-GFPicker/master/googleFilePicker.png">
 
-<i>Before using this script, please note that I am not an ERPNext expert. My experience is limited with a couple days of development effort. I am practically a newbee. The integration code is developed using the <a href="https://developers.google.com/drive/api/v3/picker" target="_blank">Google File Picker API example</a></i>
+<i>Before using this script, please note that I am not an ERPNext expert. My experience is limited with a couple days of development effort. I am practically a newbee. The integration code was adapted from the <a href="https://developers.google.com/drive/api/v3/picker" target="_blank">Google File Picker API example</a></i>
 
 You can use this script in two ways:
 
