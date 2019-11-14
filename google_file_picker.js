@@ -26,10 +26,10 @@ window.googlePicker = {
 			view.setMode(google.picker.DocsViewMode.LIST);
 			view.setIncludeFolders(true);
 			//view.setSelectFolderEnabled(true);
-			view.setEnableDrives(true);
+			//view.setEnableDrives(true);
 			this.instance = new google.picker.PickerBuilder()
 				//.enableFeature(google.picker.Feature.NAV_HIDDEN)
-				.enableFeature(google.picker.Feature.SUPPORT_DRIVES)
+				//.enableFeature(google.picker.Feature.SUPPORT_DRIVES)
 				.setAppId(this.appId)
 				.setOAuthToken(this.oauthToken)
 				.addView(view)
